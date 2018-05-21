@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "659025321911",
+    "firebase_url": "https://manzil-8a002.firebaseio.com",
+    "project_id": "manzil-8a002",
+    "storage_bucket": "manzil-8a002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659025321911:android:3e2e6a344676ba9f",
+        "android_client_info": {
+          "package_name": "com.example.abbafanda.manzildemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659025321911-t5hisnm73t7dns1st0t4slqfkhi6oe4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{ "current_key": "" }],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

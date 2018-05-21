@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <TextView
+        android:id="@+id/Pin"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="77dp"
+        android:text="Enter Pin"
+        android:textColor="#305D81"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="Enter E-mail"
+        android:textColor="#305D81"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/IDet"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="220dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Customer E-mail"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Pinet"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="67dp"
+        android:digits="6"
+        android:ems="10"
+        android:hint="6 digit pin"
+        android:inputType="numberPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Pin"
+        app:layout_constraintTop_toBottomOf="@+id/IDet" />
+
+    <Button
+        android:id="@+id/logIn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginBottom="194dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_blue"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pinet"
+        app:layout_constraintVertical_bias="0.411" />
+
+
+</android.support.constraint.ConstraintLayout>
